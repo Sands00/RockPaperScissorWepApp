@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Player Details Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Player Details </h1>
+        
+        <p>
+            Please enter your Name below:
+        </p>
+        
+        <form action="RockPaperScissorServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>Player Name</td>
+                    <td><input type="text" name="pName" required="" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="DONE" /></td>
+                </tr>
+            </table>
+            
+            
+        </form>
+        <p>
+            Click <a href="start.jsp" >here</a> to start.
+        </p>
+    </body>
+</html>
